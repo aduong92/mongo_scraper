@@ -15,6 +15,15 @@ body {
     color:black;
 
 }
+
+.article{
+    border-style: solid;
+    border-width: thin;
+    padding: 2%;
+    border-color: lightgray;
+    margin: 5px;
+    background-color: #f6f6ef;
+}
 .li:hover {
     background-color: salmon;
 }
@@ -45,6 +54,7 @@ background-color: salmon;
     color:salmon;
     padding: 2%;
 }
+
 .form-control{
     color:salmon;
 }
@@ -59,4 +69,6 @@ background-color: salmon;
 }
 
 
-a:hover,a:visited,a:link ,#scrapeBtn ,a { color:salmon; }
+a:hover,a:visited,a:link ,#scrapeBtn , a { 
+    color:salmon; 
+}
