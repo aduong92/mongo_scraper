@@ -101,12 +101,12 @@ router.delete('/:id', function(req, res) {
 
 // scrape articles
 router.get('/scrape', function(req, res, next) {
-    request('https://news.ycombinator.com', function(error, response, html) {
+    request('https://www.reddit.com/r/news/', function(error, response, html) {
         let $ = cheerio.load(html);
         let results = [];
-        $('tr.athing td.title').each(function(i, e) {
-            let title = $(this).children('a').text(),
-                link = $(this).children('a').attr('href'),
+        $('article').each(function(i, e) {
+            let title = $("h2").text(),
+                link = $(this).children().attr("href"),
                 single = {};
             if (link !== undefined && link.includes('http') &&  title !== '') {
                 single = {

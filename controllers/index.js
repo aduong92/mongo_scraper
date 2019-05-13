@@ -22,8 +22,8 @@ router.get('/', function(req, res) {
             } else {
                 console.log(articles);
                 let hbsObj = {
-                    title: 'News Scraper',
-                    subtitle: 'All the News That is Fit To Scrape',
+                    title: 'Reddit News Scraper',
+                    subtitle: 'Top Stories',
                     articles: articles
                 };
                 res.render('index', hbsObj);
@@ -46,7 +46,7 @@ router.get('/saved', function(req, res) {
             } else {
                 console.log(articles);
                 let hbsObj = {
-                    title: 'News Scraper',
+                    title: 'Reddit News Scrapper',
                     subtitle: 'Saved Articles',
                     articles: articles
                 };
