@@ -42,7 +42,13 @@ background-color: salmon;
 .note {
     background-color:#f6f6ef;
     border-color: #000;
+    color:salmon;
+    padding: 2%;
 }
+.form-control{
+    color:salmon;
+}
+
 .container{
     background-color:whitesmoke;
 }
