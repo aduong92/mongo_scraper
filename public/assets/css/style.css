@@ -1,0 +1,56 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    padding: 70px;
+    background-color: whitesmoke;
+
+}
+
+#navbar{
+    border-color: #000;
+    background-color: #f6f6ef;
+    border-style:solid;
+    color:black;
+
+}
+.li:hover {
+    background-color: salmon;
+}
+
+.btn, a.btn , #btn ,#apiBtn{
+    background-color:whitesmoke;
+    border-color: #000;
+    color:black;
+}
+
+.btn-default:hover{
+background-color: salmon;
+}
+
+.jumbotron {
+    margin:20px;
+    border-color: #000;
+    background-color: #f6f6ef;
+    border-style:solid;
+    border-width: 2px;
+    text-align: center;
+}
+
+
+.note {
+    background-color:#f6f6ef;
+    border-color: #000;
+}
+.container{
+    background-color:whitesmoke;
+}
+
+
+#text{
+    background-color:#f6f6ef;
+}
+
+
+a:hover,a:visited,a:link ,#scrapeBtn ,a { color:salmon; }
